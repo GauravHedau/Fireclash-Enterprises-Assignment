@@ -1,0 +1,352 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* navigation bar */
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(105, 203, 245);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+  }
+  
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover {
+        color: black;
+        background: #fafafa;
+        border-radius: 145px;
+        background-image: -webkit-linear-gradient(top, #fafafa, #fafafa);
+        background-image: -moz-linear-gradient(top, #fafafa, #fafafa);
+        background-image: -ms-linear-gradient(top, #fafafa, #fafafa);
+        background-image: -o-linear-gradient(top, #fafafa, #fafafa);
+        background-image: linear-gradient(to bottom, #fafafa, #fafafa);
+        text-decoration: none;
+      }
+
+.nav-item{
+    text-align: right;
+    padding-left: 10px;
+}
+.about{
+    padding-left: 70px;
+}
+.paper{
+    background-color: rgb(105, 203, 245) ;
+    border: none;
+}
+.btn{
+    font-size: small;
+    border: 0.5 solid black;
+}
+.btn:hover{
+    background-color: rgb(177, 132, 240);
+}
+.img{
+    padding-left: 15px;
+    width: 10% ;
+}
+
+/* caurasel*/
+
+.text{
+    position: absolute;
+    top: 30%;
+    z-index: 3;
+    width: 100%;
+    background: rgba(14, 13, 13, 0.7);
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* about */
+
+.body {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    margin-bottom: 30px;
+  }
+  .main, .main2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    text-indent: 10px;
+}
+
+.ig {
+    width: 25%;
+    padding: 0;
+    margin-right: 50px;
+    margin-left: 70px;
+
+    border-radius: 20px;
+    vertical-align: middle;
+    float: left;
+  }
+.para{
+    margin-right: 20px;
+    font-size: large;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+  @media (max-width: 800px) {
+    .body {
+      display: block;
+      font-size: 80%;
+    }
+    .ig{
+      width: 70%;
+      margin:10% ;
+    }
+    .para {
+        margin-left: 20px;
+      position: relative;
+      padding: 1rem;
+      padding-left: 1rem;
+      background: rgba(white, 0.8);
+    }
+  }
+
+
+/* conference track */
+
+
+.task{
+    margin-right: 20px;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    float: auto;
+    margin-left: 22px;
+    background: rgb(221, 221, 221);
+    padding: 2rem 2rem;
+    border-radius: 20px;
+}
+.t-1{
+    margin-left:8%;
+}
+
+.h-r{
+
+    margin-left: 48%;
+    margin-right: 48%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 4%;
+}
+
+
+/* institute */
+#institute{
+    margin-bottom: 5%;
+}
+.mn{
+    font-size: x-large;
+}
+.ins{
+    margin-left: 80px;
+    width: 60%;
+    text-align: center;
+}
+.ins-img{
+    margin-right: 50px;
+}
+
+/* computer */
+.com{
+    margin: 30px;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0.5px 0 0 #fff, 0 -0.5px 0 #fff, 0 0.5px 0 #fff, -0.5px 0 0 #fff;
+    background-color: #cccccc; 
+    opacity: 0.8;
+  height: 400px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 25px;
+}
+
+
+
+
+/* committe */
+
+td,table{
+    margin: 50px;
+    margin-top: 25px;
+    padding: 50px;
+    text-align: center;
+}
+.cheif{
+    margin-top: 50px;
+}
+.c-para{
+    margin-top: 20px;
+}
+.fa-user{
+    margin-right: 10px;
+}
+.tech,.orga{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: rgb(10, 8, 8);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+  .td{    
+    width: 30%;
+  }
+
+  h3:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    cursor: pointer;
+  }
+  /* paper submission */
+
+.main-sub{
+    background-color: #cccccc; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;  
+  display: flex;
+align-items: center;
+justify-content: center; 
+}
+.sub-1{
+    font-weight: bold;
+    font-size: large;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    margin: 5%;
+    color: black;
+  }
+  .btn{
+    color: black;
+  }
+  .bot:hover{
+    color: black;
+    background-color: rgb(25, 218, 232);
+  }
+
+  /* important date  */
+
+  .date{
+    margin-left: 60px;
+  }
+  .dat{
+    align-items: center;
+    background-color: rgb(195, 201, 201);
+    border: 0.3px solid black;
+   margin: 40px;
+   border-radius: 8px;
+   padding: 30px;
+   transition: width 10s height 10s border-radius 10s background-color 10s;
+
+  }
+  .dat:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    cursor: pointer;
+    border-radius: 16px;
+    background-color: rgb(105, 203, 245);
+  }
+
+  /* feeees */
+
+  .image{
+    border-radius: 8px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 600px;
+    width: 84%;
+  }
+
+  /* footer  */
+
+.foot{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.ct{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    width: 40%;
+}
+.google{
+    margin: 50px;
+    float: right;
+}
+
+footer {
+
+    padding-left: 30px;
+    text-align: right;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(105, 203, 245);
+text-decoration: none; 
+color: black;
+}
+
+.ff{
+    padding: 10px;
+    color:black ;
+}
+
+@media screen and (max-width : 800px) {
+  .container-fluid{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width : 800px) {
+  .main-sub,.com-dep{
+      width: 50%;
+  }
+  .sub-1,.m-para{
+    font-size: small;
+  }
+}
